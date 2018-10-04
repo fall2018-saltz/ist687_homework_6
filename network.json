@@ -12,7 +12,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "data.csv"
+            "target": "cleandata1.csv"
         },
         {
             "ports": [
@@ -32,12 +32,12 @@
             "task_status": "in progress"
         },
         {
-            "name": "data.csv"
+            "name": "cleandata1.csv"
         },
         {
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:33:39",
+    "updated_at": "2018-10-04 16:06:49",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
