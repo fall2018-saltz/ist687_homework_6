@@ -19,3 +19,4 @@ func1 <- function(states){
 }
 
 cleandata <- func1(raw_data)
+head(cleandata)
