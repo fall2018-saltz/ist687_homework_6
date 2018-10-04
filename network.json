@@ -25,11 +25,6 @@
             "target": "clean.R"
         },
         {
-            "ports": [],
-            "source": "cleandata1.csv",
-            "target": "merge_data.R"
-        },
-        {
             "ports": [
                 {
                     "output": "clean_data",
@@ -38,6 +33,16 @@
             ],
             "source": "merge_data.R",
             "target": "clean_data_merged.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleandata1.csv",
+            "target": "merge_data.R"
         }
     ],
     "nodes": [
@@ -60,6 +65,6 @@
             "name": "clean_data_merged.csv"
         }
     ],
-    "updated_at": "2018-10-04 16:09:51",
+    "updated_at": "2018-10-04 16:10:28",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
