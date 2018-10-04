@@ -1,10 +1,7 @@
 
 #clean_data <- as.data.frame(raw_data)
 #names(clean_data)
-func1 <- function(){
-
-  # reads the csv file with raw data
-  dfStates <- read.csv(raw_data)
+func1 <- function(states){
 
   # removes the first row and the last row, with state = USA and state = Puerto rico commonwealth 
   # and the first four columns SUMLEV	REGION	DIVISION	STATE
@@ -20,4 +17,4 @@ func1 <- function(){
   #returns the clean dataframe
   return(dfStates)
 }
-func1()
+func1(raw_data)
