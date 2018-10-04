@@ -1,2 +1,2 @@
 
-clean_data <- raw_data
+clean_data <- as.data.frame(raw_data)
