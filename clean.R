@@ -21,4 +21,4 @@ func1 <- function(states){
 cleandata1 <- func1(raw_data)
 
 cleandata2 <- USArrests
-merge(cleandata1,cleandata2)
+merged_data <- merge(cleandata1,cleandata2)
