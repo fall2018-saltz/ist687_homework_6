@@ -17,4 +17,5 @@ func1 <- function(states){
   #returns the clean dataframe
   return(dfStates)
 }
-func1(raw_data)
+
+cleandata <- func1(raw_data)
