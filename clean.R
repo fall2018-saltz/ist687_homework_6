@@ -18,7 +18,7 @@ func1 <- function(states){
   return(dfStates)
 }
 
-cleandata <- func1(raw_data)
-#head(cleandata)
+cleandata1 <- func1(raw_data)
 
-head(USArrests)
+cleandata2 <- USArrests
+rownames(cleandata2)
