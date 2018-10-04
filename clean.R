@@ -1,3 +1,23 @@
 
-clean_data <- as.data.frame(raw_data)
-names(clean_data)
+#clean_data <- as.data.frame(raw_data)
+#names(clean_data)
+func1 <- function(){
+
+  # reads the csv file with raw data
+  dfStates <- read.csv(raw_data)
+
+  # removes the first row and the last row, with state = USA and state = Puerto rico commonwealth 
+  # and the first four columns SUMLEV	REGION	DIVISION	STATE
+
+  dfStates <- dfStates[,c(-1,-2,-3,-4)]
+  dfStates <- dfStates[c(-1,-53),] 
+
+  # renaming the remaining columns
+  # the colnames function is used to rename columns and the rownames function is used for rows
+
+  colnames(dfStates)[c(1,2,3,4)] <- c("stateName", "population", "popOver18", "percentOver18")
+
+  #returns the clean dataframe
+  return(dfStates)
+}
+func1()
