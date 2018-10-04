@@ -23,6 +23,11 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [],
+            "source": "cleandata1.csv",
+            "target": "merge_data.R"
         }
     ],
     "nodes": [
@@ -42,6 +47,6 @@
             "name": "merge_data.R"
         }
     ],
-    "updated_at": "2018-10-04 16:07:12",
+    "updated_at": "2018-10-04 16:07:26",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
