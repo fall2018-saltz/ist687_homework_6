@@ -20,6 +20,3 @@ func1 <- function(states){
 
 cleandata1 <- func1(raw_data)
 
-cleandata2 <- USArrests
-clean_data <- merge(cleandata1,cleandata2)
-tail(clean_data)
