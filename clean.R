@@ -22,3 +22,4 @@ cleandata1 <- func1(raw_data)
 
 cleandata2 <- USArrests
 merged_data <- merge(cleandata1,cleandata2)
+head(merged_data)
