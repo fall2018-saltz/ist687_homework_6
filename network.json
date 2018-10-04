@@ -45,8 +45,11 @@
         {
             "desc": "",
             "name": "merge_data.R"
+        },
+        {
+            "name": "clean_data_merged.csv"
         }
     ],
-    "updated_at": "2018-10-04 16:07:26",
+    "updated_at": "2018-10-04 16:09:12",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
