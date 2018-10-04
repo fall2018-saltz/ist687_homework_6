@@ -47,11 +47,6 @@
     ],
     "nodes": [
         {
-            "assigned_to": "eashani",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "cleandata1.csv"
         },
         {
@@ -63,8 +58,14 @@
         },
         {
             "name": "clean_data_merged.csv"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-04 16:10:57",
+    "updated_at": "2018-10-04 16:11:32",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
