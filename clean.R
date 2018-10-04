@@ -19,4 +19,4 @@ func1 <- function(states){
 }
 
 cleandata1 <- func1(raw_data)
-
+head(cleandata1)
