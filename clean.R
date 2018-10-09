@@ -21,3 +21,4 @@ func1 <- function(states){
 clean_data <- func1(raw_data)
 
 head(clean_data)
+rownames(clean_data) <- clean_data$stateName
