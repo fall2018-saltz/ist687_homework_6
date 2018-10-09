@@ -19,3 +19,5 @@ func1 <- function(states){
 }
 
 clean_data <- func1(raw_data)
+
+rownames(clean_data)
