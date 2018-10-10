@@ -57,7 +57,7 @@
         {
             "ports": [
                 {
-                    "output": "x",
+                    "output": "myPlotPop",
                     "type": "png"
                 }
             ],
@@ -97,6 +97,6 @@
             "name": "histogram1.png"
         }
     ],
-    "updated_at": "2018-10-10 17:06:08",
+    "updated_at": "2018-10-10 17:10:11",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
