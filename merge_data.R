@@ -6,3 +6,4 @@ cleandata2 <- USArrests
 x <- as.vector(rownames(USArrests))
 x
 cleandata2 <- c(USArrests,x)
+print(cleandata2)
