@@ -183,6 +183,16 @@
             ],
             "source": "clean_data_merged.csv",
             "target": "scatter_plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murders",
+                    "type": "csv"
+                }
+            ],
+            "source": "bar_charts.R",
+            "target": "murders.csv"
         }
     ],
     "nodes": [
@@ -260,6 +270,6 @@
             "name": "murders.csv"
         }
     ],
-    "updated_at": "2018-10-10 18:20:48",
+    "updated_at": "2018-10-10 18:21:05",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
