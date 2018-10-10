@@ -3,6 +3,7 @@ library("ggplot2")
 
 # ggplot is used to create plots
 # the geom function is used to choose which plot to make
+# the aesthetic function (aes) is used to select the x and y values
 myPlotPop <- ggplot(clean_data_merged, aes(x=population))
 myPlotPop <- myPlotPop + geom_histogram(binwidth=500000)
 myPlotPop <- myPlotPop + ggtitle("Histogram of Population")
