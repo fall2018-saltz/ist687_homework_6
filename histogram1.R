@@ -10,3 +10,8 @@ myPlotPop1 <- ggplot(clean_data_merged, aes(x=Murder))
 myPlotPop1 <- myPlotPop1 + geom_histogram(binwidth=1)
 myPlotPop1 <- myPlotPop1 + ggtitle("Histogram of Murder")
 myPlotPop1
+
+myPlotPop1 <- ggplot(clean_data_merged, aes(x=Murder))
+myPlotPop1 <- myPlotPop1 + geom_histogram(binwidth=1)
+myPlotPop1 <- myPlotPop1 + ggtitle("Histogram of Murder")
+myPlotPop1
