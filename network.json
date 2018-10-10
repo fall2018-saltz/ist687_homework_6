@@ -123,6 +123,16 @@
             ],
             "source": "histogram_and_boxplot.R",
             "target": "boxplot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data_merged",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data_merged.csv",
+            "target": "bar_charts.R"
         }
     ],
     "nodes": [
@@ -179,6 +189,6 @@
             "name": "bar_charts.R"
         }
     ],
-    "updated_at": "2018-10-10 18:00:38",
+    "updated_at": "2018-10-10 18:00:53",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
