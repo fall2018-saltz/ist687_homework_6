@@ -249,12 +249,6 @@
             "name": "boxplot2.png"
         },
         {
-            "assigned_to": "eashani",
-            "desc": "",
-            "name": "bar_charts.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "barchart1.png"
         },
         {
@@ -283,8 +277,14 @@
             "desc": "",
             "name": "histogram_and_boxplot.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "bar_charts.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 18:29:43",
+    "updated_at": "2018-10-10 18:29:47",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
