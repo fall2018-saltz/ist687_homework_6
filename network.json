@@ -52,7 +52,7 @@
                 }
             ],
             "source": "clean_data_merged.csv",
-            "target": "histogram1.R"
+            "target": "histogram_and_boxplot.R"
         },
         {
             "ports": [
@@ -61,7 +61,7 @@
                     "type": "png"
                 }
             ],
-            "source": "histogram1.R",
+            "source": "histogram_and_boxplot.R",
             "target": "histogram1.png"
         },
         {
@@ -71,7 +71,7 @@
                     "type": "png"
                 }
             ],
-            "source": "histogram1.R",
+            "source": "histogram_and_boxplot.R",
             "target": "histogram2.png"
         },
         {
@@ -81,7 +81,7 @@
                     "type": "png"
                 }
             ],
-            "source": "histogram1.R",
+            "source": "histogram_and_boxplot.R",
             "target": "histogram3.png"
         },
         {
@@ -91,7 +91,7 @@
                     "type": "png"
                 }
             ],
-            "source": "histogram1.R",
+            "source": "histogram_and_boxplot.R",
             "target": "histogram4.png"
         },
         {
@@ -101,7 +101,7 @@
                     "type": "png"
                 }
             ],
-            "source": "histogram1.R",
+            "source": "histogram_and_boxplot.R",
             "target": "histogram5.png"
         }
     ],
@@ -128,12 +128,6 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "eashani",
-            "desc": "",
-            "name": "histogram1.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "histogram1.png"
         },
         {
@@ -147,8 +141,14 @@
         },
         {
             "name": "histogram5.png"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "histogram_and_boxplot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 17:37:32",
+    "updated_at": "2018-10-10 17:45:46",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
