@@ -43,6 +43,36 @@
             ],
             "source": "merge_data.R",
             "target": "clean_data_merged.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data_merged",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data_merged.csv",
+            "target": "histogram1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram1.R",
+            "target": "histogram1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop1",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram1.R",
+            "target": "histogram2.png"
         }
     ],
     "nodes": [
@@ -53,10 +83,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "desc": "",
-            "name": "merge_data.R"
-        },
-        {
             "name": "clean_data_merged.csv"
         },
         {
@@ -64,8 +90,35 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "merge_data.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "histogram1.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "histogram1.png"
+        },
+        {
+            "name": "histogram2.png"
+        },
+        {
+            "name": "histogram3.png"
+        },
+        {
+            "name": "histogram4.png"
+        },
+        {
+            "name": "histogram5.png"
         }
     ],
-    "updated_at": "2018-10-04 16:11:32",
+    "updated_at": "2018-10-10 17:31:59",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
