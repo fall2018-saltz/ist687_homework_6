@@ -147,8 +147,11 @@
             "desc": "",
             "name": "histogram_and_boxplot.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "boxplot1.png"
         }
     ],
-    "updated_at": "2018-10-10 17:45:46",
+    "updated_at": "2018-10-10 17:46:01",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
