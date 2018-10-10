@@ -57,16 +57,6 @@
         {
             "ports": [
                 {
-                    "output": "myPlotPop5",
-                    "type": "png"
-                }
-            ],
-            "source": "histogram_and_boxplot.R",
-            "target": "boxplot1.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "myPlotPop6",
                     "type": "png"
                 }
@@ -203,6 +193,16 @@
             ],
             "source": "histogram_and_boxplot.R",
             "target": "histogram5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot5",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram_and_boxplot.R",
+            "target": "boxplot1.png"
         }
     ],
     "nodes": [
@@ -285,6 +285,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 18:45:42",
+    "updated_at": "2018-10-10 18:47:32",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
