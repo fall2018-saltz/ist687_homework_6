@@ -29,14 +29,14 @@ plot2
 
 # urban population
 plot3 <- ggplot(clean_data_merged, aes(x=UrbanPop))
-plot3 <- plot2 + geom_histogram(binwidth=30)
-plot3 <- plot2 + ggtitle("Histogram of urban population")
+plot3 <- plot3 + geom_histogram(binwidth=30)
+plot3 <- plot3 + ggtitle("Histogram of urban population")
 plot3
 
 # rape
 plot4 <- ggplot(clean_data_merged, aes(x=Rape))
-plot4 <- plot2 + geom_histogram(binwidth=20)
-plot4 <- plot2 + ggtitle("Histogram of rape")
+plot4 <- plot4 + geom_histogram(binwidth=20)
+plot4 <- plot4 + ggtitle("Histogram of rape")
 plot4
 
 
