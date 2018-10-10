@@ -43,13 +43,13 @@ plot4
 # box plots
 
 # population
-plot5 <- ggplot(clean_data_merged, aes(x=factor(0),y=population))
+plot5 <- ggplot(clean_data_merged, aes(y=population))
 plot5 <- plot5 + geom_boxplot()
 plot5 <- plot5 + ggtitle("Boxplot of Population")
 plot5
 
 # murder
-plot6 <- ggplot(clean_data_merged, aes(x=factor(0),y=Murder))
+plot6 <- ggplot(clean_data_merged, aes(y=Murder))
 plot6 <- plot6 + geom_boxplot()
 plot6 <- plot6 + ggtitle("Boxplot of Murder")
 plot6
