@@ -1,6 +1,6 @@
 
 library("ggplot2")
-scatterplot <- ggplot(murders, aes(x= population, y =popOver18))
-scatterplot <- scatterplot + geom_point(aes(size = murdersperstate, color = murdersperstate))
-scatterplot <- scatterplot + ggtitle("Scatter Plot")
-scatterplot
+scplot <- ggplot(murders, aes(x= population, y =popOver18))
+scplot <- scplot + geom_point(aes(size = murdersperstate, color = murdersperstate))
+scplot <- scplot + ggtitle("Scatter Plot")
+scplot
