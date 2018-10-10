@@ -243,12 +243,6 @@
             "name": "histogram5.png"
         },
         {
-            "assigned_to": "eashani",
-            "desc": "",
-            "name": "histogram_and_boxplot.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "boxplot1.png"
         },
         {
@@ -283,8 +277,14 @@
         },
         {
             "name": "scatterplot1.png"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "histogram_and_boxplot.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 18:25:43",
+    "updated_at": "2018-10-10 18:29:43",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
