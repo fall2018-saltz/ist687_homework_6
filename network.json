@@ -261,12 +261,6 @@
             "name": "barchart4.png"
         },
         {
-            "assigned_to": "eashani",
-            "desc": "",
-            "name": "scatter_plot.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "murders.csv"
         },
         {
@@ -283,8 +277,14 @@
             "desc": "",
             "name": "bar_charts.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "scatter_plot.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 18:29:54",
+    "updated_at": "2018-10-10 18:30:00",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
