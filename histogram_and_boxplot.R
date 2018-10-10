@@ -42,3 +42,4 @@ myPlotPop6 <- myPlotPop6 + ggtitle("Boxplot of Murder")
 myPlotPop6
 
 # box plots are more useful than histograms because they provide a more detailed summary
+# of the data ie the minimum value, the first quartile, the median, the third quartile, and the maximum value.
