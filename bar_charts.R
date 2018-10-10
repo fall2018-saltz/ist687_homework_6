@@ -13,6 +13,7 @@ barChart1 <- barChart1 + geom_col()
 barChart1 <- barChart1 + ggtitle("Bar chart of murders per state")
 barChart1
 
+# Generate a bar chart, with the number of murders per state. Rotate text (on the X axis), so we can see x labels, also add a title named “Total Murders”.
 barChart2 <- ggplot(clean_data_merged, aes(x=stateName, y=murdersperstate))
 barChart2 <- barChart2 + geom_col()
 barChart2 <- barChart2 + ggtitle("Total Murders")
