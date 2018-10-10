@@ -150,8 +150,11 @@
         },
         {
             "name": "boxplot1.png"
+        },
+        {
+            "name": "boxplot2.png"
         }
     ],
-    "updated_at": "2018-10-10 17:46:01",
+    "updated_at": "2018-10-10 17:46:11",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
