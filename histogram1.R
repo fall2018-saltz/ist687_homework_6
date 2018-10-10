@@ -26,3 +26,6 @@ myPlotPop4 <- ggplot(clean_data_merged, aes(x=Rape))
 myPlotPop4 <- myPlotPop2 + geom_histogram(binwidth=20)
 myPlotPop4 <- myPlotPop2 + ggtitle("Histogram of Murder")
 myPlotPop4
+
+
+# box plots
