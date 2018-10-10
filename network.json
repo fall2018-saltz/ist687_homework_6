@@ -114,8 +114,11 @@
         },
         {
             "name": "histogram4.png"
+        },
+        {
+            "name": "histogram5.png"
         }
     ],
-    "updated_at": "2018-10-10 17:31:49",
+    "updated_at": "2018-10-10 17:31:59",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
