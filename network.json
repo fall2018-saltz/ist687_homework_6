@@ -255,8 +255,11 @@
         {
             "desc": "",
             "name": "scatter_plot.R"
+        },
+        {
+            "name": "murders.csv"
         }
     ],
-    "updated_at": "2018-10-10 18:18:58",
+    "updated_at": "2018-10-10 18:20:48",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
