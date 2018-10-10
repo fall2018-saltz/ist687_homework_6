@@ -52,7 +52,7 @@
                 }
             ],
             "source": "clean_data_merged.csv",
-            "target": "histogram1.R"
+            "target": "histogram_and_boxplot.R"
         },
         {
             "ports": [
@@ -61,7 +61,7 @@
                     "type": "png"
                 }
             ],
-            "source": "histogram1.R",
+            "source": "histogram_and_boxplot.R",
             "target": "histogram1.png"
         },
         {
@@ -71,8 +71,138 @@
                     "type": "png"
                 }
             ],
-            "source": "histogram1.R",
+            "source": "histogram_and_boxplot.R",
             "target": "histogram2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop2",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram_and_boxplot.R",
+            "target": "histogram3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop3",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram_and_boxplot.R",
+            "target": "histogram4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop4",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram_and_boxplot.R",
+            "target": "histogram5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop5",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram_and_boxplot.R",
+            "target": "boxplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop6",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram_and_boxplot.R",
+            "target": "boxplot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data_merged",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data_merged.csv",
+            "target": "bar_charts.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart1",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_charts.R",
+            "target": "barchart1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart2",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_charts.R",
+            "target": "barchart2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart3",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_charts.R",
+            "target": "barchart3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart4",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_charts.R",
+            "target": "barchart4.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "murders",
+                    "type": "csv"
+                }
+            ],
+            "source": "murders.csv",
+            "target": "scatter_plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murders",
+                    "type": "csv"
+                }
+            ],
+            "source": "bar_charts.R",
+            "target": "murders.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scplot",
+                    "type": "png"
+                }
+            ],
+            "source": "scatter_plot.R",
+            "target": "scatterplot1.png"
         }
     ],
     "nodes": [
@@ -98,12 +228,6 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "eashani",
-            "desc": "",
-            "name": "histogram1.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "histogram1.png"
         },
         {
@@ -117,8 +241,50 @@
         },
         {
             "name": "histogram5.png"
+        },
+        {
+            "name": "boxplot1.png"
+        },
+        {
+            "name": "boxplot2.png"
+        },
+        {
+            "name": "barchart1.png"
+        },
+        {
+            "name": "barchart2.png"
+        },
+        {
+            "name": "barchart3.png"
+        },
+        {
+            "name": "barchart4.png"
+        },
+        {
+            "name": "murders.csv"
+        },
+        {
+            "name": "scatterplot1.png"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "histogram_and_boxplot.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "bar_charts.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "eashani",
+            "desc": "",
+            "name": "scatter_plot.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 17:31:59",
+    "updated_at": "2018-10-10 18:30:00",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
