@@ -5,5 +5,5 @@ cleandata2 <- USArrests
 
 x <- as.vector(rownames(USArrests))
 x
-cleandata2 <- c(USArrests,x)
+cleandata2 <- as.data.frame(c(USArrests,x))
 head(cleandata2)
