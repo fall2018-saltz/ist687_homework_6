@@ -29,3 +29,14 @@ myPlotPop4
 
 
 # box plots
+
+library("ggplot2")
+myPlotPop5 <- ggplot(clean_data_merged, aes(x=factor(0),y=population))
+myPlotPop5 <- myPlotPop2 + geom_boxplot()
+myPlotPop5 <- myPlotPop2 + ggtitle("Boxplot of Population")
+myPlotPop5
+
+myPlotPop6 <- ggplot(clean_data_merged, aes(x=factor(0),y=Murder))
+myPlotPop6 <- myPlotPop3 + geom_boxplot()
+myPlotPop6 <- myPlotPop3 + ggtitle("Boxplot of Murder")
+myPlotPop6
