@@ -23,24 +23,25 @@ myPlotPop1
 # assault
 myPlotPop2 <- ggplot(clean_data_merged, aes(x=Assault))
 myPlotPop2 <- myPlotPop2 + geom_histogram(binwidth=100)
-myPlotPop2<- myPlotPop2 + ggtitle("Histogram of Murder")
+myPlotPop2<- myPlotPop2 + ggtitle("Histogram of assault")
 myPlotPop2
 
 # urban population
 myPlotPop3 <- ggplot(clean_data_merged, aes(x=UrbanPop))
 myPlotPop3 <- myPlotPop2 + geom_histogram(binwidth=30)
-myPlotPop3 <- myPlotPop2 + ggtitle("Histogram of Murder")
+myPlotPop3 <- myPlotPop2 + ggtitle("Histogram of urban population")
 myPlotPop3
 
+# rape
 myPlotPop4 <- ggplot(clean_data_merged, aes(x=Rape))
 myPlotPop4 <- myPlotPop2 + geom_histogram(binwidth=20)
-myPlotPop4 <- myPlotPop2 + ggtitle("Histogram of Murder")
+myPlotPop4 <- myPlotPop2 + ggtitle("Histogram of rape")
 myPlotPop4
 
 
 # box plots
 
-library("ggplot2")
+# population
 myPlotPop5 <- ggplot(clean_data_merged, aes(x=factor(0),y=population))
 myPlotPop5 <- myPlotPop5 + geom_boxplot()
 myPlotPop5 <- myPlotPop5 + ggtitle("Boxplot of Population")
