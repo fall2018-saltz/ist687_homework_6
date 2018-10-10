@@ -1,5 +1,7 @@
 
 library("ggplot2")
+
+# calculate murders per state and save them in a column in the data
 clean_data_merged$murdersperstate <- as.integer(clean_data_merged$population*clean_data_merged$Murder/100000)
 murders <- clean_data_merged[,c(1,2,3,9)]
 murders
