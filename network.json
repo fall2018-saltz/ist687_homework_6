@@ -192,8 +192,11 @@
         },
         {
             "name": "barchart1.png"
+        },
+        {
+            "name": "barchart2.png"
         }
     ],
-    "updated_at": "2018-10-10 18:06:41",
+    "updated_at": "2018-10-10 18:06:49",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
