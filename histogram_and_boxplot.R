@@ -40,3 +40,5 @@ myPlotPop6 <- ggplot(clean_data_merged, aes(x=factor(0),y=Murder))
 myPlotPop6 <- myPlotPop6 + geom_boxplot()
 myPlotPop6 <- myPlotPop6 + ggtitle("Boxplot of Murder")
 myPlotPop6
+
+# box plots are more useful than histograms because they provide a more detailed summary
