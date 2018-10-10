@@ -173,8 +173,12 @@
         },
         {
             "name": "boxplot2.png"
+        },
+        {
+            "desc": "",
+            "name": "bar_charts.R"
         }
     ],
-    "updated_at": "2018-10-10 17:47:03",
+    "updated_at": "2018-10-10 18:00:38",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
