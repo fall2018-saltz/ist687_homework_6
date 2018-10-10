@@ -6,6 +6,7 @@ clean_data_merged$murdersperstate <- as.integer(clean_data_merged$population*cle
 murders <- clean_data_merged[,c(1,2,3,9)]
 murders
 
+#
 barChart1 <- ggplot(clean_data_merged, aes(x=stateName, y=murdersperstate))
 barChart1 <- barChart1 + geom_col()
 barChart1 <- barChart1 + ggtitle("Bar chart of murders per state")
