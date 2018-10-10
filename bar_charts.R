@@ -1,6 +1,6 @@
 
 library("ggplot2")
-clean_data_merged$murdersperstate <- as.integer(mergeDataframe$population*mergeDataframe$Murder/100000)
+clean_data_merged$murdersperstate <- as.integer(clean_data_merged$population*mergeDataframe$Murder/100000)
 murders <- clean_data_merged[,c(2,3,4,10)]
 murders
 
