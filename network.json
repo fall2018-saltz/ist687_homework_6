@@ -177,22 +177,22 @@
         {
             "ports": [
                 {
-                    "output": "murders",
-                    "type": "csv"
-                }
-            ],
-            "source": "bar_charts.R",
-            "target": "murders.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "murders",
                     "type": "csv"
                 }
             ],
             "source": "murders.csv",
             "target": "scatter_plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murders",
+                    "type": "csv"
+                }
+            ],
+            "source": "bar_charts.R",
+            "target": "murders.csv"
         }
     ],
     "nodes": [
@@ -263,13 +263,15 @@
             "name": "barchart4.png"
         },
         {
+            "assigned_to": "eashani",
             "desc": "",
-            "name": "scatter_plot.R"
+            "name": "scatter_plot.R",
+            "task_status": "in progress"
         },
         {
             "name": "murders.csv"
         }
     ],
-    "updated_at": "2018-10-10 18:21:24",
+    "updated_at": "2018-10-10 18:24:29",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
