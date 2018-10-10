@@ -43,6 +43,16 @@
             ],
             "source": "merge_data.R",
             "target": "clean_data_merged.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data_merged",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data_merged.csv",
+            "target": "histogram1.R"
         }
     ],
     "nodes": [
@@ -72,6 +82,6 @@
             "name": "histogram1.R"
         }
     ],
-    "updated_at": "2018-10-10 16:59:02",
+    "updated_at": "2018-10-10 16:59:27",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
