@@ -3,5 +3,5 @@ cleandata2 <- USArrests
 
 #clean_data_merged <- merge(clean_data,cleandata2,by="row.names")
 
-rownames(USArrests)
-
+x <- rownames(USArrests)
+class(x)
