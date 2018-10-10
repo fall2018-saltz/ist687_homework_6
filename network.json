@@ -93,6 +93,16 @@
             ],
             "source": "histogram1.R",
             "target": "histogram4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop4",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram1.R",
+            "target": "histogram5.png"
         }
     ],
     "nodes": [
@@ -139,6 +149,6 @@
             "name": "histogram5.png"
         }
     ],
-    "updated_at": "2018-10-10 17:37:05",
+    "updated_at": "2018-10-10 17:37:32",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
