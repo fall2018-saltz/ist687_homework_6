@@ -26,6 +26,7 @@ myPlotPop2 <- myPlotPop2 + geom_histogram(binwidth=100)
 myPlotPop2<- myPlotPop2 + ggtitle("Histogram of Murder")
 myPlotPop2
 
+# urban population
 myPlotPop3 <- ggplot(clean_data_merged, aes(x=UrbanPop))
 myPlotPop3 <- myPlotPop2 + geom_histogram(binwidth=30)
 myPlotPop3 <- myPlotPop2 + ggtitle("Histogram of Murder")
