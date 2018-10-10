@@ -8,7 +8,7 @@ library("ggplot2")
 # ggtitle is used for the title
 
 # population
-plot <- ggplot(clean_data_merged, aes(x=population))
+plotx <- ggplot(clean_data_merged, aes(x=population))
 plotx <- plotx + geom_histogram(binwidth=500000)
 plotx <- plotx + ggtitle("Histogram of Population")
 plotx
