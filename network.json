@@ -133,6 +133,16 @@
             ],
             "source": "clean_data_merged.csv",
             "target": "bar_charts.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart1",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_charts.R",
+            "target": "barchart1.png"
         }
     ],
     "nodes": [
@@ -203,6 +213,6 @@
             "name": "barchart4.png"
         }
     ],
-    "updated_at": "2018-10-10 18:07:07",
+    "updated_at": "2018-10-10 18:07:44",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
