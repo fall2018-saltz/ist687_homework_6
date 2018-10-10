@@ -241,8 +241,12 @@
         },
         {
             "name": "barchart4.png"
+        },
+        {
+            "desc": "",
+            "name": "scatter_plot.R"
         }
     ],
-    "updated_at": "2018-10-10 18:08:38",
+    "updated_at": "2018-10-10 18:18:40",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
