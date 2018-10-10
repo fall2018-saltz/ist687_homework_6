@@ -65,9 +65,13 @@
             "assigned_to": "eashani",
             "desc": "",
             "name": "merge_data.R",
-            "task_status": "in progress"
+            "task_status": "completed"
+        },
+        {
+            "desc": "",
+            "name": "histogram1.R"
         }
     ],
-    "updated_at": "2018-10-10 16:55:34",
+    "updated_at": "2018-10-10 16:59:02",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
