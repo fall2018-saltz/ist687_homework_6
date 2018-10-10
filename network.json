@@ -163,6 +163,16 @@
             ],
             "source": "bar_charts.R",
             "target": "barchart3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart4",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_charts.R",
+            "target": "barchart4.png"
         }
     ],
     "nodes": [
@@ -233,6 +243,6 @@
             "name": "barchart4.png"
         }
     ],
-    "updated_at": "2018-10-10 18:08:29",
+    "updated_at": "2018-10-10 18:08:38",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
