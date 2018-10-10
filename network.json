@@ -78,10 +78,15 @@
             "task_status": "completed"
         },
         {
+            "assigned_to": "eashani",
             "desc": "",
-            "name": "histogram1.R"
+            "name": "histogram1.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "histogram1.png"
         }
     ],
-    "updated_at": "2018-10-10 16:59:27",
+    "updated_at": "2018-10-10 17:05:55",
     "url": "https://github.com/fall2018-saltz/ist687_homework_6"
 }
