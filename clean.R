@@ -20,6 +20,6 @@ func1 <- function(states){
 
 clean_data <- func1(raw_data)
 
-head(clean_data)
+# saves the state names as row names
 rownames(clean_data) <- clean_data$stateName
 

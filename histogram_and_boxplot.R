@@ -1,45 +1,58 @@
 
+
 library("ggplot2")
 
-myPlotPop <- ggplot(clean_data_merged, aes(x=population))
-myPlotPop <- myPlotPop + geom_histogram(binwidth=500000)
-myPlotPop <- myPlotPop + ggtitle("Histogram of Population")
-myPlotPop
+# ggplot is used to create plots
+# the geom function is used to choose which plot to make
+# the aesthetic function (aes) is used to select the x and y values
+# ggtitle is used for the title
 
-myPlotPop1 <- ggplot(clean_data_merged, aes(x=Murder))
-myPlotPop1 <- myPlotPop1 + geom_histogram(binwidth=1)
-myPlotPop1 <- myPlotPop1 + ggtitle("Histogram of Murder")
-myPlotPop1
+# population
+plotx <- ggplot(clean_data_merged, aes(x=population))
+plotx <- plotx + geom_histogram(binwidth=500000)
+plotx <- plotx + ggtitle("Histogram of Population")
+plotx
+
+# murder
+plot1 <- ggplot(clean_data_merged, aes(x=Murder))
+plot1 <- plot1 + geom_histogram(binwidth=1)
+plot1 <- plot1 + ggtitle("Histogram of Murder")
+plot1
 
 # adjust binwidth to make histograms look right
-myPlotPop2 <- ggplot(clean_data_merged, aes(x=Assault))
-myPlotPop2 <- myPlotPop2 + geom_histogram(binwidth=100)
-myPlotPop2<- myPlotPop2 + ggtitle("Histogram of Murder")
-myPlotPop2
 
-myPlotPop3 <- ggplot(clean_data_merged, aes(x=UrbanPop))
-myPlotPop3 <- myPlotPop2 + geom_histogram(binwidth=30)
-myPlotPop3 <- myPlotPop2 + ggtitle("Histogram of Murder")
-myPlotPop3
+# assault
+plot2 <- ggplot(clean_data_merged, aes(x=Assault))
+plot2 <- plot2 + geom_histogram(binwidth=100)
+plot2<- plot2 + ggtitle("Histogram of assault")
+plot2
 
-myPlotPop4 <- ggplot(clean_data_merged, aes(x=Rape))
-myPlotPop4 <- myPlotPop2 + geom_histogram(binwidth=20)
-myPlotPop4 <- myPlotPop2 + ggtitle("Histogram of Murder")
-myPlotPop4
+# urban population
+plot3 <- ggplot(clean_data_merged, aes(x=UrbanPop))
+plot3 <- plot3 + geom_histogram(binwidth=30)
+plot3 <- plot3 + ggtitle("Histogram of urban population")
+plot3
+
+# rape
+plot4 <- ggplot(clean_data_merged, aes(x=Rape))
+plot4 <- plot4 + geom_histogram(binwidth=20)
+plot4 <- plot4 + ggtitle("Histogram of rape")
+plot4
 
 
 # box plots
 
-library("ggplot2")
-myPlotPop5 <- ggplot(clean_data_merged, aes(x=factor(0),y=population))
-myPlotPop5 <- myPlotPop5 + geom_boxplot()
-myPlotPop5 <- myPlotPop5 + ggtitle("Boxplot of Population")
-myPlotPop5
+# population
+plot5 <- ggplot(clean_data_merged, aes(y=population))
+plot5 <- plot5 + geom_boxplot()
+plot5 <- plot5 + ggtitle("Boxplot of Population")
+plot5
 
-myPlotPop6 <- ggplot(clean_data_merged, aes(x=factor(0),y=Murder))
-myPlotPop6 <- myPlotPop6 + geom_boxplot()
-myPlotPop6 <- myPlotPop6 + ggtitle("Boxplot of Murder")
-myPlotPop6
+# murder
+plot6 <- ggplot(clean_data_merged, aes(y=Murder))
+plot6 <- plot6 + geom_boxplot()
+plot6 <- plot6 + ggtitle("Boxplot of Murder")
+plot6
 
 # box plots are more useful than histograms because they provide a more detailed summary
 # of the data ie the minimum value, the first quartile, the median, the third quartile, 
