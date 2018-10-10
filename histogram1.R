@@ -11,6 +11,7 @@ myPlotPop1 <- myPlotPop1 + geom_histogram(binwidth=1)
 myPlotPop1 <- myPlotPop1 + ggtitle("Histogram of Murder")
 myPlotPop1
 
+# adjust binwidth to make histograms look right
 myPlotPop2 <- ggplot(clean_data_merged, aes(x=Assault))
 myPlotPop2 <- myPlotPop2 + geom_histogram(binwidth=100)
 myPlotPop2<- myPlotPop2 + ggtitle("Histogram of Murder")
