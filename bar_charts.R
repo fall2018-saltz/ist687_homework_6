@@ -8,8 +8,9 @@ murders
 
 # Generate a bar chart, with the number of murders per state
 # geom_col() is used for generating the heights of the columns of the bar chart
-barChart1 <- ggplot(clean_data_merged, aes(x=stateName, y=murdersperstate))
-barChart1 <- barChart1 + geom_col()
+#ggplot() + geom_col(data = Titanic, aes(x = Class, y = Freq))
+#barChart1 <- ggplot(clean_data_merged, aes(x=stateName, y=murdersperstate))
+barChart1 <- ggplot() + geom_col(clean_data_merged, aes(x=stateName, y=murdersperstate))
 barChart1 <- barChart1 + ggtitle("Bar chart of murders per state")
 barChart1
 
