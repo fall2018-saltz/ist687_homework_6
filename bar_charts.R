@@ -34,7 +34,7 @@ barChart3
 # Generate a third bar chart, the same as the previous step
 # but also showing percentOver18 as the color of the bar
 barChart4 <- ggplot(clean_data_merged, aes(x = reorder(stateName, murdersperstate), y = murdersperstate, group = 1))
-barChart4 <- barChart4 + geom_col(aes(size=percentOver18,color=percentOver18))
+barChart4 <- barChart4 + geom_col(clean_data_merged,aes(size=percentOver18,color=percentOver18))
 barChart4 <- barChart4 + ggtitle("Sorted bar chart showing percentOver18 as color of bar")
 barChart4
 
