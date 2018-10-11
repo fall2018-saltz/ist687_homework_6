@@ -9,7 +9,7 @@ library("ggplot2")
 
 # population
 plotx <- ggplot(clean_data_merged, aes(x=population))
-plotx <- plotx + geom_histogram(binwidth=500000)
+plotx <- plotx + geom_histogram(binwidth=100000)
 plotx <- plotx + ggtitle("Histogram of Population")
 plotx
 
